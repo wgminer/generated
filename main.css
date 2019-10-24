@@ -1,0 +1,29 @@
+h1 {
+	margin: 40px 0;
+	line-height: 1.5;
+	font-family: sans-serif;
+}
+
+.palette {
+	height: 240px;
+	width: 200px;
+	display: flex;
+	margin: 0 0 40px;
+	flex-direction: column;
+	border: 3px solid #999;
+	padding: 5px;
+}
+
+.palette + .palette {
+	margin-left: 40px;
+}
+
+.row {
+	display: flex;
+	margin: 0 auto;
+	width: 920px;
+}
+
+.panel {
+	height: 50px;
+}
